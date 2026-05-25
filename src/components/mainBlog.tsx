@@ -27,6 +27,7 @@ export const MainBlog = () => {
         console.log("entro paso 1 consulta todos los usuarios", usersData);
       } catch (err) {
         console.error("Error cargando datos:", err);
+        setError("No se pudieron cargar los datos. Intenta nuevamente.");
       }
     };
 

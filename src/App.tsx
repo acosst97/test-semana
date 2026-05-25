@@ -1,15 +1,11 @@
-import { useState } from 'react'
-
 import './App.css'
 
-import { MainBlog as Blog, MainBlog } from './components/mainBlog'
+import { MainBlog } from './components/mainBlog'
 import UserList from './components/listUser'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    // Reemplazamos el div vacío por un contenedor simple con Tailwind
+   
     <div className="max-w-6xl mx-auto px-4 py-8 space-y-12 font-sans">
       <header className="text-center border-b pb-6">
         <h1 className="text-3xl font-black text-gray-900">Mi Aplicación de Blog</h1>
