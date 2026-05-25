@@ -5,11 +5,11 @@
 # HARVIN TEST SEMANA ---------------
 UTILICE TYPEScript con Vite para carga mas rapida de Dom
 Se instalo tailwindcss ya que trabajo mejor con ese,se hicieron las configuraciones  para mejor estilizacion Y no generar tantos aerchivos .css
-en  el blog se ve la lista principal  del post y los usuarios por filtro se validara mediante el token devuelto de la primera consulta (accessToken)
+en  el blog se ve la lista principal  del post y los usuarios por filtro se validara mediante el token devuelto de la primera consulta (accessToken).
 la encripted Key la utilizo normalmente para encriptar la informacion que viaja del front al back cuando hay conexion a una bd Real para mejor seguridad de la informacion. 
-agregue  en la vista  la consulta de prosductos editar de manera simulada localmente
+agregue  en la vista  la consulta de prosductos editar de manera simulada localmente esta vista solo se vera si hay un token disponible
+ # he creado  un repositorio    https://github.com/acosst97/test-semana   para el seguimiento de los cambios realizados. 
  # --------------------------O--------------------------------
-
 
 # React + TypeScript + Vite
 
